@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 1rem 2rem;
+    color: white;
+    font-family: sans-serif;
+    border-bottom: 1px solid #333;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar a {
+    color: #90caf9;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.navbar a:hover {
+    color: #ffffff;
+}

@@ -17,7 +17,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="navbar-left">
                 <Link to="/">Dashboard</Link>
-
+                <Link to="/wishlist">Wishlist</Link>
                 {/* Health Check tylko dla admina */}
                 {roles.includes("admin") && (
                     <Link to="/health">Health Check</Link>

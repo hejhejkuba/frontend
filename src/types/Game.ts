@@ -5,4 +5,6 @@ export interface Game {
     price: number;
     discount: number;
     image_path: string;
+    tags: string[];
+    genres: string[];
 }

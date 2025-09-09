@@ -5,6 +5,7 @@ import Dashboard from './pages/Dashboard';
 import HealthCheck from "./pages/HealthCheck";
 import GameViewDetails from "./components/GameViewDetails";
 import ProtectedLayout from './components/ProtectedLayout';
+import Wishlist from "./components/WishList.tsx";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 <Route path="/" element={<Dashboard />} />
                 <Route path="/health" element={<HealthCheck />} />
                 <Route path="/games/:id" element={<GameViewDetails />} />
+                <Route path="/wishlist" element={<Wishlist />} />
             </Route>
 
             {/* fallback dla złych ścieżek */}

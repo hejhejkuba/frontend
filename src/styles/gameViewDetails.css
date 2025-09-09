@@ -50,3 +50,94 @@
     background-color: #2c2c2c;
     display: block;
 }
+.game-details-discount {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ffab91; /* pastelowy pomarańczowy dla rabatu */
+}
+
+.game-details-genres,
+.game-details-tags {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: #e0e0e0;
+}
+
+.game-details-genres::before {
+    content: "🎮 Gatunki: ";
+    font-weight: bold;
+    color: #81d4fa; /* jasny niebieski */
+}
+
+.game-details-tags::before {
+    content: "🏷️ Tagi: ";
+    font-weight: bold;
+    color: #f48fb1; /* różowy */
+}
+
+.game-details-container:hover {
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.3s ease;
+}
+
+.game-details-header {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.game-details-price,
+.game-details-discount {
+    margin-bottom: 1rem;
+}
+
+.game-reviews {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #333;
+}
+
+.game-reviews h3 {
+    color: #90caf9;
+    margin-bottom: 0.5rem;
+}
+
+.game-reviews-stats {
+    display: flex;
+    gap: 0.5rem;
+    color: #bbb;
+    margin-bottom: 1rem;
+}
+
+.game-reviews-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+    display: grid;
+    gap: 0.75rem;
+}
+
+.game-review-item {
+    background: #222;
+    border: 1px solid #2c2c2c;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+}
+
+.game-review-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #e0e0e0;
+    margin-bottom: 0.5rem;
+}
+
+.game-review-comment {
+    color: #cfcfcf;
+    line-height: 1.5;
+}
+
+.stars {
+    letter-spacing: 1px;
+    color: #ffd54f;
+}
